@@ -7,6 +7,9 @@ public class Principal {
 		boolean fl = false;
 		vida = 0;
 		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("--------JUEGO DE ADIVINANZAS--------");
+		
 		do {
 			vida ++;
 			System.out.println("Vida:" + vida + "\t¿Cuál es el número secreto?");
